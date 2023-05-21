@@ -1,0 +1,8 @@
+Algorithm
+
+Step1.Initialize the three variable and that variable name is maxReach, fuel and plane.
+step2.I Set the maxReach to the first element of the array, fuel to arr[0], and plane to 1.
+step3.Then Iterate the array from the index 1  to the end, and updating the maxReac to the maximum index that can be reached from the current index using the fuel units specified by the value at the current index.
+step4.If our fuel equal to the zero that means we have reached the end of the current fuel unit, then we update the fuel to maxReach and increment  in the plane.
+step5.if i==n-1 means we have reched at the end then return plane
+step6.if i >= maxReach we returns -1 we can not reach at the end
